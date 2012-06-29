@@ -1,0 +1,43 @@
+//
+//  TarArchive.m
+//  zipQuickLook
+//
+//  Created by Ricky Nelson on 1/13/11.
+//  Copyright 2011 Lark Software, LLC. All rights reserved.
+//
+
+#import "TarArchive.h"
+
+
+@implementation TarArchive
+-(NSString *) dump:(NSURL *)theUrl
+{
+	NSMutableString *zipHtml = [[NSMutableString alloc] init];
+	NSTask *zipInfo = [[NSTask alloc] init];
+	[zipInfo setLaunchPath:@"/usr/bin/tar"];
+	
+	NSArray *zipArgs = [NSArray arrayWithObjects:@"-tf", [theUrl path], nil];
+	[zipInfo setArguments:zipArgs];
+	
+	NSPipe *zipPipe = [NSPipe pipe];
+	[zipInfo setStandardOutput:zipPipe];
+	
+	NSFileHandle *zipHandle = [zipPipe fileHandleForReading];
+	
+	[zipInfo launch];
+	
+	NSString *zipFiles = [[NSString alloc] init];
+	NSData *zipData = [zipHandle availableDataOrError];
+	while ([zipData length] > 0) {
+		zipFiles = [zipFiles stringByAppendingString: [[NSString alloc] initWithData:zipData 
+																			 encoding:NSUTF8StringEncoding]];
+		zipData = [zipHandle availableDataOrError];
+	}
+	
+	for (NSString *line in [zipFiles componentsSeparatedByString:@"\n"]) {
+		[zipHtml appendFormat:@"<span style='font-family: monospace;'>%@</span><br>", line];
+	}
+	
+	return zipHtml;
+}
+@end
