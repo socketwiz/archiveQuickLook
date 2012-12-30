@@ -15,13 +15,13 @@
 		6441CE84132F903E000A0A12 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441CE83132F903E000A0A12 /* GenerateThumbnailForURL.m */; };
 		6441CE86132F903E000A0A12 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441CE85132F903E000A0A12 /* GeneratePreviewForURL.m */; };
 		6441CE88132F903E000A0A12 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6441CE87132F903E000A0A12 /* main.c */; };
-		6441CEA6132F927B000A0A12 /* FileHandleCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6441CEA0132F927B000A0A12 /* FileHandleCategory.h */; };
-		6441CEA7132F927B000A0A12 /* FileHandleCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441CEA1132F927B000A0A12 /* FileHandleCategory.m */; };
-		6441CEA8132F927B000A0A12 /* TarArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 6441CEA2132F927B000A0A12 /* TarArchive.h */; };
-		6441CEA9132F927B000A0A12 /* TarArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441CEA3132F927B000A0A12 /* TarArchive.m */; };
-		6441CEAA132F927B000A0A12 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 6441CEA4132F927B000A0A12 /* ZipArchive.h */; };
-		6441CEAB132F927B000A0A12 /* ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441CEA5132F927B000A0A12 /* ZipArchive.m */; };
 		6441CEB613302466000A0A12 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6441CEB513302466000A0A12 /* Cocoa.framework */; };
+		648530541690F62400DA0850 /* FileHandleCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6485304E1690F62400DA0850 /* FileHandleCategory.h */; };
+		648530551690F62400DA0850 /* FileHandleCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6485304F1690F62400DA0850 /* FileHandleCategory.m */; };
+		648530561690F62400DA0850 /* TarArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 648530501690F62400DA0850 /* TarArchive.h */; };
+		648530571690F62400DA0850 /* TarArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 648530511690F62400DA0850 /* TarArchive.m */; };
+		648530581690F62400DA0850 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 648530521690F62400DA0850 /* ZipArchive.h */; };
+		648530591690F62400DA0850 /* ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 648530531690F62400DA0850 /* ZipArchive.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,13 +36,13 @@
 		6441CE83132F903E000A0A12 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
 		6441CE85132F903E000A0A12 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
 		6441CE87132F903E000A0A12 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		6441CEA0132F927B000A0A12 /* FileHandleCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHandleCategory.h; sourceTree = SOURCE_ROOT; };
-		6441CEA1132F927B000A0A12 /* FileHandleCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHandleCategory.m; sourceTree = SOURCE_ROOT; };
-		6441CEA2132F927B000A0A12 /* TarArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TarArchive.h; sourceTree = SOURCE_ROOT; };
-		6441CEA3132F927B000A0A12 /* TarArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TarArchive.m; sourceTree = SOURCE_ROOT; };
-		6441CEA4132F927B000A0A12 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = SOURCE_ROOT; };
-		6441CEA5132F927B000A0A12 /* ZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipArchive.m; sourceTree = SOURCE_ROOT; };
 		6441CEB513302466000A0A12 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6485304E1690F62400DA0850 /* FileHandleCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHandleCategory.h; sourceTree = "<group>"; };
+		6485304F1690F62400DA0850 /* FileHandleCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHandleCategory.m; sourceTree = "<group>"; };
+		648530501690F62400DA0850 /* TarArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TarArchive.h; sourceTree = "<group>"; };
+		648530511690F62400DA0850 /* TarArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TarArchive.m; sourceTree = "<group>"; };
+		648530521690F62400DA0850 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		648530531690F62400DA0850 /* ZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipArchive.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,12 +93,12 @@
 		6441CE7C132F903E000A0A12 /* archiveQuickLook */ = {
 			isa = PBXGroup;
 			children = (
-				6441CEA0132F927B000A0A12 /* FileHandleCategory.h */,
-				6441CEA1132F927B000A0A12 /* FileHandleCategory.m */,
-				6441CEA2132F927B000A0A12 /* TarArchive.h */,
-				6441CEA3132F927B000A0A12 /* TarArchive.m */,
-				6441CEA4132F927B000A0A12 /* ZipArchive.h */,
-				6441CEA5132F927B000A0A12 /* ZipArchive.m */,
+				6485304E1690F62400DA0850 /* FileHandleCategory.h */,
+				6485304F1690F62400DA0850 /* FileHandleCategory.m */,
+				648530501690F62400DA0850 /* TarArchive.h */,
+				648530511690F62400DA0850 /* TarArchive.m */,
+				648530521690F62400DA0850 /* ZipArchive.h */,
+				648530531690F62400DA0850 /* ZipArchive.m */,
 				6441CE83132F903E000A0A12 /* GenerateThumbnailForURL.m */,
 				6441CE85132F903E000A0A12 /* GeneratePreviewForURL.m */,
 				6441CE87132F903E000A0A12 /* main.c */,
@@ -124,9 +124,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6441CEA6132F927B000A0A12 /* FileHandleCategory.h in Headers */,
-				6441CEA8132F927B000A0A12 /* TarArchive.h in Headers */,
-				6441CEAA132F927B000A0A12 /* ZipArchive.h in Headers */,
+				648530541690F62400DA0850 /* FileHandleCategory.h in Headers */,
+				648530561690F62400DA0850 /* TarArchive.h in Headers */,
+				648530581690F62400DA0850 /* ZipArchive.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,9 +206,9 @@
 				6441CE84132F903E000A0A12 /* GenerateThumbnailForURL.m in Sources */,
 				6441CE86132F903E000A0A12 /* GeneratePreviewForURL.m in Sources */,
 				6441CE88132F903E000A0A12 /* main.c in Sources */,
-				6441CEA7132F927B000A0A12 /* FileHandleCategory.m in Sources */,
-				6441CEA9132F927B000A0A12 /* TarArchive.m in Sources */,
-				6441CEAB132F927B000A0A12 /* ZipArchive.m in Sources */,
+				648530551690F62400DA0850 /* FileHandleCategory.m in Sources */,
+				648530571690F62400DA0850 /* TarArchive.m in Sources */,
+				648530591690F62400DA0850 /* ZipArchive.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
